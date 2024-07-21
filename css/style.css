@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    background-color: #F5FFFA;
+}
+
+
+.containerMain {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main
+{
+    display: flex;
+    height: 80%;
+    width: 80%;
+}
+.containerTexto
+{
+    width: 100%;
+    height: 100%;
+}
+
+.containerTexto textarea
+{
+    width: 100%;
+    height: 80%;
+    border: 3px solid #8B4513;
+}
+
+main .botones
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+}
+
+button
+{
+    width: 45%;
+    height: 80%;
+    border-radius: 20%;
+    background-color: #FFEFD5;
+    font-size: 24px;
+}
+
+aside
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin-left: 20vh;
+    border-radius: 20%;
+    border: 3px solid #8B4513;
+    background-color: #FFEFD5;
+}
+.textoDesencriptado
+{
+    width: 85%;
+    height: 85%;
+
+}
+
+header
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+p
+{
+    font-size: 26px;
+}
